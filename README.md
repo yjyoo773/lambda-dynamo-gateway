@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [route](http://xyz.com)(https://kiwkhy584k.execute-api.us-west-2.amazonaws.com/people)
+- [route](https://kiwkhy584k.execute-api.us-west-2.amazonaws.com/people)
 
 #### How to initialize/run your application (where applicable)
 
