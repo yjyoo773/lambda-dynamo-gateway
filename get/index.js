@@ -7,6 +7,8 @@ const PeopleModel = require("./people.schema.js");
 exports.handler = async (event) => {
   try {
     const id = event.queryStringParameters && event.queryStringParameters.id;
+    // const id = event.pathParameters && event.pathParameters.id;
+    console.log('id is ',id)
     let data;
     if (id) {
         const list = await PeopleModel.query('id').eq(id).exec();
